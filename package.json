@@ -1,0 +1,20 @@
+{
+  "name": "partsouq-scraper",
+  "version": "1.0.0",
+  "description": "Puppeteer-based PartSouq scraper API for n8n (VIN + part name -> OEM part number)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer": "^22.12.1"
+  }
+}
